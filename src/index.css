@@ -1,0 +1,110 @@
+/* src/index.css */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+button,
+select {
+  padding: 5px 10px;
+  min-width: 50px;
+  margin: 10px;
+  font-size: 18px;
+}
+
+.list {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+.card {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0px 2px 3px grey;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background: #854d93;
+  border-radius: 4px;
+}
+
+.logo,
+img {
+  width: 200px;
+}
+
+.AddApartmentPage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.AddApartmentForm {
+  padding: 10px;
+  border: 1px solid grey;
+  box-shadow: 0px 2px 3px grey;
+  width: 500px;
+  background: #afd7fb;
+}
+
+.AddApartmentPage label {
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.AddApartmentPage input {
+  padding: 10px;
+  display: inline-block;
+  margin: 2px 0 10px;
+}
+
+.AddApartmentPage input[type="number"] {
+  padding: 10px;
+  display: inline-block;
+  margin: 2px 0 10px;
+  text-align: center;
+}
+
+.AddApartmentPage button[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+
+.apartmentThumbnail{
+  width: 100px;
+  padding: 0 4px;
+}
+
+.toast-body{
+  height: 400px;
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+.toast{
+  margin-top: 20px;
+}
